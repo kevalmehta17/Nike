@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 656a253 (Fix Error)
 import {
   Hero,
   PopularProducts,
@@ -11,14 +7,13 @@ import {
   CustomerReviews,
   Subscribe,
   Footer,
-<<<<<<< HEAD
-} from "./Components";
-=======
 } from "./Sections";
->>>>>>> 656a253 (Fix Error)
+
+import Nav from "./Components/Nav";
+
 const App = () => (
   <main className="relative">
-    {/* <Nav /> */}
+    <Nav />
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
@@ -46,11 +41,3 @@ const App = () => (
   </main>
 );
 export default App;
-<<<<<<< HEAD
-=======
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
->>>>>>> 95f97cc (Initial commit)
-=======
->>>>>>> 656a253 (Fix Error)
