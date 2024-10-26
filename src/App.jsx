@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
   Hero,
   PopularProducts,
@@ -38,3 +39,8 @@ const App = () => (
   </main>
 );
 export default App;
+=======
+export default function App() {
+  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+}
+>>>>>>> 95f97cc (Initial commit)
