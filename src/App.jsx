@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 656a253 (Fix Error)
 import {
   Hero,
   PopularProducts,
@@ -8,7 +11,11 @@ import {
   CustomerReviews,
   Subscribe,
   Footer,
+<<<<<<< HEAD
 } from "./Components";
+=======
+} from "./Sections";
+>>>>>>> 656a253 (Fix Error)
 const App = () => (
   <main className="relative">
     {/* <Nav /> */}
@@ -39,8 +46,11 @@ const App = () => (
   </main>
 );
 export default App;
+<<<<<<< HEAD
 =======
 export default function App() {
   return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
 }
 >>>>>>> 95f97cc (Initial commit)
+=======
+>>>>>>> 656a253 (Fix Error)
